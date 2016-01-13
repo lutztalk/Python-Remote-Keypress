@@ -1,0 +1,42 @@
+Key URIs,8831,"8841, 8851, 8861","8941, 8945","8961, 9951, 9971"
+Key:Applications,Not supported,Supported,Supported,Supported
+,,,(see note 1),
+Key:AppMenu,Not supported,No supported,Not supported,Not supported
+Key:Contacts,Not supported,Supported,Not supported,Not supported
+Key:Directories,Not supported,Not supported,Not supported,Not supported
+Key:Feature1 to Key:Feature120,Not supported,Supported,Supported,Supported
+,,(see note 9),(see note 2),
+Key:FixedFeature1 to 3,Not supported,Supported,Supported,Supported
+Key:Headset,Not supported,Supported,Supported,Supported
+Key:Hold,Not supported,Supported,Not supported,Not supported
+Key:Info,Not supported,Not supported,Not supported,Not supported
+Key:KemPage,Not supported,Supported,Not supported,Not supported
+Key:KeyPad0 to Key:KeyPad9,Supported,Supported,Supported,Supported
+Key:KeyPadPound,Supported,Supported,Supported,Supported
+Key:KeyPadStar,Supported,Supported,Supported,Supported
+Key:Line1 to Key:Line120,Supported,Supported,Supported,Supported
+,,(see note 9),(see note 3),
+Key:Messages,Not supported,Supported,Supported,Supported
+Key:Mute,Not supported,Supported,Supported,Supported
+Key:NavBack,Not supported,Not supported,Supported,Supported
+,,,(see note 4),
+Key:NavDwn,Not supported,Supported,Supported,Supported
+Key:NavLeft,Not supported,Supported,Not supported,Supported
+Key:NavRight,Not supported,Supported,Not supported,Supported
+Key:NavSelect,Not supported,Supported,Supported,Supported
+Key:NavUp,Not supported,Supported,Supported,Supported
+Key:Offhook,Not supported,Not supported,Not supported,Not supported
+Key:Onhook,Not supported,Not supported,Not supported,Not supported
+Key:PTT,Not supported,Not supported,Not supported,Not supported
+Key:Release,Not supported,Supported,Not supported,Supported
+Key:Services,Not supported,Supported,Not supported,Not supported
+,,,,(See note 8)
+Key:Session1 to Key:Session6,Not supported,Supported,Not supported,Supported
+,,(see note 9),,
+Key:Settings,Not supported,Supported,Not supported,Not supported
+,,,(see note 5),
+Key:Soft1 to Key:Soft5,Supported,Supported,Supported,Supported
+,,,(see note 7),
+Key:Speaker,Supported,Supported,Supported,Supported
+Key:VolDwn,Supported,Supported,Supported,Supported
+Key:VolUp,Supported,Supported,Supported,Supported
