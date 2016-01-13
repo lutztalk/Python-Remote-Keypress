@@ -4,7 +4,7 @@ from copy import deepcopy
 import requests
 import time
 from StringIO import StringIO
-_79xx_keynavlist = ['Key:Applications','Key:KeyPad5','Key:KeyPad4','Key:KeyPad4','Key:Soft3']
+_79xx_keynavlist = ['Key:Applications','Key:KeyPad5','Key:KeyPad4','Key:KeyPad4','Key:Soft3','Key:Soft1']
 key = 'XML'
 keynav = {key : []}
 for keypress in _79xx_keynavlist:
