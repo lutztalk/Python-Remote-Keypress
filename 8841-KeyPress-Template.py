@@ -3,8 +3,12 @@ from lxml.etree import tostring
 from copy import deepcopy
 import requests
 import time
+import sys
+import time
 from StringIO import StringIO
-_79xx_keynavlist = ['Key:Applications','Key:KeyPad5','Key:KeyPad4','Key:KeyPad4','Key:Soft3','Key:Soft1']
+_79xx_keynavlist = ['Key:Applications','Key:KeyPad2','Key:KeyPad1','Key:NavRight','Key:Soft2','Key:Soft1']
+
+
 key = 'XML'
 keynav = {key : []}
 for keypress in _79xx_keynavlist:
@@ -18,7 +22,7 @@ for keypress in _79xx_keynavlist:
 
 key_action = deepcopy(keynav)
 
-url = 'http://192.168.5.197/CGI/Execute'
+url = 'http://192.168.5.222/CGI/Execute'
 user='phonecontrol'
 pwd='phonecontrol'
 headers={'content-type':'application/xml'}
@@ -28,6 +32,7 @@ for xml in keynav[key]:
     key_press[key] = xml
     r = requests.post(url,headers=headers,data=key_press,auth=(user,pwd))
     key_action[key].remove(xml)
+    time.sleep(2.0)
     if(counter == 4):
         break
     counter += 1
