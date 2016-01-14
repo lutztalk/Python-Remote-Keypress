@@ -32,7 +32,7 @@ for xml in keynav[key]:
     key_press[key] = xml
     r = requests.post(url,headers=headers,data=key_press,auth=(user,pwd))
     key_action[key].remove(xml)
-    time.sleep(2.0)
+    time.sleep(1.0)
     if(counter == 4):
         break
     counter += 1
