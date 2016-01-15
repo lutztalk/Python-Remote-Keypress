@@ -21,7 +21,6 @@ for keypress in _79xx_keynavlist:
     keynav[key] = keynav[key]+[phnavstr]
 
 key_action = deepcopy(keynav)
-
 url = 'http://192.168.5.222/CGI/Execute'
 user='phonecontrol'
 pwd='phonecontrol'
